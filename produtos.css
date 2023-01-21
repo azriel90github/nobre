@@ -1,0 +1,198 @@
+zone-galaria{
+        padding: 2em 0em;
+        border-bottom: 2px solid rgba(0, 0, 136, 0.6);
+        transition: 2s;
+    }
+    .zone-galaria h3{
+        color: darkblue;
+    }
+div#cenario{
+        width:90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        transition: 2s;
+    }
+    .dvload{
+        width: 100%;
+        height: 5px;
+        margin-top: 63%;
+        border: 2px solid rgba(0, 0, 0, 1);
+
+    }
+    .dvbarra{
+        width: 10%;
+        height: 100%;
+        background: #888;
+    }
+    .btnslider{
+        height: 80px;
+        margin-top: 10%;
+        border:none;
+        font-size: 20px;
+        background: rgba(0, 0, 136, 0.6);
+        color: white;
+        padding:10px;
+        cursor: pointer;
+        outline: none;    
+    }
+    #cenario .galeria{
+        width: 280px;
+        display: inline-table;
+        border-radius: 10px;
+        height: 300px;
+        margin:0px;
+        transition: 2s;
+    }
+    .galeria_div{
+        width: 280px;
+        display: inline-table;
+        border: 3px solid rgba(0, 0, 135, 0.8);
+        border-radius: 10px;
+        height: 300px;
+        margin:10px;
+        transition: 2s;
+    }
+    .galeria_div p{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        margin: 0;
+
+    }
+    @media(max-width: 1093px){
+        #cenario .galeria{
+        width: 350px;
+        height: 300px;
+    }   
+        #cenario #galeria3{
+        width: 450px;
+        height: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+        #cenario .galeria_div{
+        width: 350px;
+        height: 300px;
+    }   
+    .btnslider{
+        height: 80px;
+        margin-top: 30%;
+    }
+    }
+    @media(max-width: 900px){
+        #cenario .galeria{
+        width: 300px;
+        height: 300px;
+    }
+        #cenario .galeria_div{
+        width: 300px;
+        height: 300px;
+    }   
+        #cenario #galeria3{
+        width: 450px;
+        height: 350px;
+    }
+    .btnslider{
+        margin-top: 35%;
+    }
+    }
+        @media(max-width: 788px){
+        #cenario .galeria{
+        width: 200px;
+        height: 200px;
+    }   
+    #cenario .galeria_div{
+        width: 200px;
+        height: 200px;
+    }   
+        #cenario #galeria3{
+        width: 300px;
+        height: 250px;
+    }
+    .btnslider{
+        height: 80px;
+        margin-top: 30%;
+    }
+    }
+        @media(max-width: 900px){
+        #cenario .galeria{
+        width: 300px;
+        height: 300px;
+    }   
+    #cenario .galeria_div{
+        width: 300px;
+        height: 300px;
+    }   
+        #cenario #galeria3{
+        width: 450px;
+        height: 350px;
+    }
+    .btnslider{
+        margin-top: 35%;
+    }
+    }
+     @media(max-width: 788px){
+        #cenario .galeria{
+        width: 200px;
+        height: 200px;
+        
+    }   
+    #cenario .galeria_div{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }   
+        #cenario #galeria3{
+        width: 300px;
+        height: 250px;
+    }
+    @media(max-width: 688px){
+        #cenario .galeria{
+        width: 150px;
+        height: 200px;
+        
+    }   
+    #cenario .galeria_div{
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+    }   
+        #cenario #galeria3{
+        width: 300px;
+        height: 250px;
+    }
+    }
+    @media(max-width: 460px){
+        #cenario .galeria{
+        width: 140px;
+        height: 140px;
+    }   
+    #cenario .galeria_div{
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+    }   
+        #cenario #galeria3{
+        width: 90%;
+        height: 250px;
+    }
+    }
+    @media(max-width: 410px){
+        #cenario .galeria{
+        width: 120px;
+        height: 140px;
+    }   
+    #cenario .galeria_div{
+        width: 120px;
+        height: 140px;
+        margin: 5px;
+    }   
+        #cenario #galeria3{
+        width: 90%;
+        height: 250px;
+    }
+}

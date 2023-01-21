@@ -1,0 +1,355 @@
+@charset = utf-8;
+    body{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    img{
+        width: 100%;
+    }
+   /** FORMATACAO DA ZONA DE BOAS VINDAS OU TEXTOS DE INFORMAÇÃPO PRIMARIA*/
+    .textos{
+        width: 860px;
+        padding: 8em 0px 0px 0px;
+        margin: 0px auto;
+        color: white;
+        text-align: center;
+    }
+    .textos h1, .textos h2, .textos p{
+        margin: 5px;
+        text-align: center;
+    }
+    .welcome-zone{
+        height: 90vh;
+        padding: 8em 0px 1em 0px;
+        background-size:  cover;
+        transition: 1s ease-in-out;
+        background-attachment: fixed
+    }
+    .welcome-fundo1{
+        background-image: url(fundo1.jpg);
+        transition: 1s ease-in-out;
+    }
+    .welcome-fundo2{
+        background-image: url(fundo2.jpg);
+        transition: 1s ease-in-out;
+    }
+    .welcome-fundo3{
+        background-image: url(fundo3.jpg);
+        transition: 1s ease-in-out;
+    }
+    .welcome-fundo4{
+        background-image: url(fundo4.jpg);
+        transition: 1s ease-in-out;
+    }
+    @media(max-width: 800px){
+        .welcome-zone{
+            height: 80vh;
+            padding: 10em 0px 0em 0px;
+            background-size:100% 80%;
+            background-repeat:no-repeat;
+            background-color:none;
+            background-position: top;
+    }
+        .textos h5{
+            display: block;
+            width: 100%;
+        }
+        .textos h1, .textos h2, .textos p{
+        margin: 5px;
+        text-align: center;
+        font-size: 1em;
+    }
+      .textos{
+        width: 100%;
+        padding: 4em 0px 0px 0px;
+        margin: 0px auto;
+        color: white;
+        text-align: center;
+    }
+    }
+    @media(max-width: 560px){
+        .welcome-zone{
+            height: 60vh;
+            padding: 9em 0px 0em 0px;
+            background-size:100% 70%;
+            background-attachment: none;
+            background-repeat:no-repeat;
+            background-color:none;
+            background-position: top;
+    }
+        .textos h5{
+            display: none;
+            width: 100%;
+        }
+      .textos{
+        width: 100%;
+        padding: 4em 0px 0px 0px;
+        margin: 0px auto;
+        color: white;
+        text-align: center;
+    }
+    } 
+    /**FORMATACAO DAS MEDIAS FOR MOBILE AND TABLET*/
+    @media(max-width: 700px){
+        .textos{
+            width: 100%;
+        }
+    }
+    /**FORMATACAO DAS ZONA CENTRAL E OS BLOCOS DE INFORMAÇÃO*/
+        .centralizar{
+        width: 80%;
+        margin: 10px auto;
+           
+    }
+    .blocos{
+        display: inline-table;
+        width: 280px;
+        margin: 5px 5px;
+        height: 300px;
+        transition: 2s;
+
+    }
+    .bloco{
+        padding: 2em 0em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        margin: 0px;
+    }
+    .bloco h3, .bloco h4{
+        text-align: center;
+        margin: 15px 0px;
+    } 
+    .bloco > .enfase{
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+    }
+    .imagem{
+        margin-right:100px;
+    }/**FORMATACAO DAS MEDIAS FOR MOfILE AND TABLET*/
+    	@media(max-width: 1030px){
+		.blocos{
+        	width: 360px;
+            padding-bottom: 1em;
+ 		   }		
+    	}
+    	@media(max-width: 880px){
+		.blocos{
+        	width: 280px;
+        	margin: 20px 5px;
+ 		   }		
+    	}
+    @media(max-width: 750px){
+        .blocos{
+            width: 250px;
+            margin: 10px 10px 10px 5px;
+        }
+    }
+    @media(max-width: 660px){
+        .blocos{
+        	display: block;
+            width: 94%;
+            margin: 10em auto;
+            clear: both;
+        }
+    }
+    .imagem_produtos{
+        width: 400;
+    }/**FORMATACAO DAS ZONA SOBRE A INFORMAÇÃO DO SITE*/
+    .sobre-zone{
+        padding: 2em 0px;
+    }
+    .sobre-zone h1, .sobre-zone p{
+            padding: 10px;
+        }
+      .sobre-zone .imagem_sobre{
+            
+
+        }
+        .imagem_sobre img{
+            height: 450px;
+        }
+
+        @media(max-width: 550px){
+            .imagem_sobre img{
+              height: 400px;
+        }   
+        .imagem_sobre{
+          display: block;
+          margin: 10px auto;            
+        }
+        }
+    /*ZONA DE CONFIGURACAO DE PRODUTOS*/
+    .produtos-zone{
+            padding: 6em  0px;
+            background-color: rgba(0, 0, 0, 0.4);            
+        }
+        .produto-imagem{
+            width: 600px;
+            margin-right: 20px;
+        }
+        .produtos-zone img{
+            
+
+        }
+
+        @media(max-width: 1050px){
+            .produtos-zone img{
+        }
+        .produto-imagem{
+            width: 400px;
+            margin-right: 20px;
+        }   
+        .produtos-zone{
+          display: block;
+          margin: 10px auto;            
+        }
+        }
+
+        @media(max-width: 840px){
+            .produtos-zone img{
+        }
+        .produto-imagem{
+            width: 350px;
+            margin-right: 20px;
+        }   
+        .produtos-zone{
+          display: block;
+          margin: 10px auto;            
+        }
+        }
+        @media(max-width: 840px){
+            .produtos-zone img{
+                display: block;
+                width: 90%;
+                margin-left: 103px;
+                padding: 0px;
+                float:none;
+        }
+        .produto-imagem{
+            width: 120%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }   
+        .produtos-zone{
+          display: block;
+          margin: 10px auto;            
+        }
+    }
+    @media(max-width: 490px){
+            .produtos-zone img{
+                width: 90%;
+                margin-left: 80px;
+        }
+}
+@media(max-width: 380px){
+            .produtos-zone img{
+                width: 90%;
+                margin-left: 70px;
+    }
+}
+    .produtos-zone h1{
+
+            text-align: center;
+            color: darkblue;
+        }
+    .produtos-zone h1, .produtos-zone p{
+            padding: 10px;
+        }
+    .linha_produtos li{
+            list-style: none;
+            padding: 6px;
+            margin: 4px;
+            color: white;
+            background-color: blue;
+    }
+    .linha_produtos a{
+        color: white;
+    }
+    .btn_scone{
+        display:block;
+        width:140px;
+        padding: 10px 0px;
+        margin: 25px auto 0px auto;
+        transition: 1s ease-in-out;
+    }
+    .blocos P{
+           margin: 10px 0px;
+    }
+    .btn_scone > li{
+        display: inline;
+        padding: 0px 6px 0px 6px;
+        margin: 10px;   
+        border-radius: 60px 60px 60px 60px;
+        background-color: #888;
+        transition: 1s ease-in-out;
+        
+    }
+    .btn_scone > li.btn_scone_active{
+         background-color: #fff;
+        transition: 1s ease-in-out;
+    }
+    /**FORMATACAO DAS ZONA CENTRAL ESPECIAL SIMBOLOS*/
+    .simbolo{
+        background-color: blue;
+        padding: 12px 14px 12px 10px;
+        width: 40px;
+        color:white;
+        display: block;
+        margin: 0px auto;
+        border-radius: 10px;
+    }
+    .testemunho{
+        padding: 1em 0px 1em 0px;
+        background-color: transparent;
+        transition: 1s ease-in-out;
+        clear: right; 
+        color: white;
+    }
+
+    .testemunho_zone{
+        text-align: center;
+        transition: 1s ease-in-out;
+    }
+     .zona_float{
+            transform: translateX(0em);
+            transition: 1s ease-in-out;
+            display: block;
+    }
+    .abaixo{
+        margin-top:;
+    }
+    .float_r{
+        transition: 1s ease-in-out;
+        opacity: 0;
+        display: block;
+        transform: translateX(-99em);
+    }
+    .float_left{
+        transition: 1s ease-in-out;
+        opacity: 0;
+        display: none;
+        transform:translateX(99em);
+    }
+   .testemunho_zone img{
+            display: block;
+            width: 130px;
+            height: 130px;
+            margin: 0px auto 20px auto;
+            border: 2px solid #fff;
+            border-radius: 50%;
+        }
+    .testemunho_zone p, .testemunho_zone h4, .testemunho_zone h3 {
+        margin: 5px 0px 0px 0px;
+    }
+    .testemunho_zone p{
+        font-style: italic;
+    }
+    @media(max-width: 700px){
+        .testemunho{
+        padding: 4em 0px 4em 0px;
+        background-color: transparent;
+        transition: 1s ease-in-out;
+        clear: right; 
+        color: white;
+    }
+
+    }

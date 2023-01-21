@@ -1,0 +1,329 @@
+@charset = utf-8;
+    /*TONS AZUIS
+    .CORES {SlateBlue #6A5ACD (106,90,205)
+    DarkSlateBlue #483D8B (72,61,139)
+    MidnightBlue #191970 (25,25,112)
+    Navy #000080 (0,0,128)
+    DarkBlue #00008B (0,0,139)
+    MediumBlue #0000CD (0,0,205)
+    Blue #0000FF (0,0,255)
+    CornflowerBlue #6495ED (100,149,237)
+    RoyalBlue #4169E1 (65,105,225)
+    DodgerBlue #1E90FF (30,144,255)
+    DeepSkyBlue #00BFFF (0,191,255)
+    LightSkyBlue #87CEFA (135,206,250)
+    SkyBlue #87CEEB (135,206,235)
+    LightBlue #ADD8E6 (173,216,230)
+    SteelBlue #4682B4 (70,130,180)
+    LightSteelBlue #B0C4DE (176,196,222)
+    SlateGray #708090 (112,128,144)
+    LightSlateGray #778899 (119,136,153)
+}
+*/          
+            .enfase h4{
+                color: #00008B;
+                font-size: 1.2em;
+            }
+            p.seeing a{
+                color: #00008B;
+                margin: 10px;
+            }
+			.eliminarErro{}
+            /*MINHAS CONFIGURACOES */
+            .th_30{
+            width: 300px;
+            }
+            .th_20{Zwidth: 200px;}
+            .th_15{
+                    width: 150px;}
+                .linha{
+                display: inline-table;
+                transition: .6s;}
+            .th-40{
+                width: 40%;
+            }
+            .th-50{
+                width: 50%;   
+            }
+            @media(max-width: 600px){
+             .th-40{
+                width: 90%;
+                margin: 1px auto;}}
+            .zona{
+                clear: all;
+            }
+            .th-50{
+                width: 90%;
+                margin: 0.6em 0px;   
+            }
+            .direito{
+                float: right;
+                transition: .6s;
+            }
+			header{
+				position: fixed;
+				width: 100%;
+			}
+            .fashion{
+                color:#40E0D0;
+            }
+            /*#40E0D0*/
+            .logo_nobre{
+                color: #fff;
+            }
+            .zona2{
+                padding: 2em 0px 2em 0px;
+                clear: right;
+            }
+            .margin_right{
+                     margin-right:100px;
+                }
+            .margin_left{
+                margin-left:100px;
+            }
+            @media(max-width: 1200px){
+             .margin_right{margin-right:50px;}
+             .margin_left{margin-left:50px;}   
+            }
+             @media(max-width: 600px){
+             .margin_right{margin-right:10px;}
+             .margin_left{margin-left:10px;}   
+            }
+
+           *{
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+                transition: 0.6s;
+            }
+            /**FORMATACAO DAS CLASSES DE ANIMACAO DA ZONA DE NAVEGACAO */
+            article.activar_links{
+                width: 100%;
+                background-color: RGBA(0, 0, 0, 0.8);
+                height: 100%;
+                position: fixed;
+                margin: -160px 0px 0px 0px;
+                left: -1px;
+            }
+            .espacamento{
+                padding-top: 5em;
+                padding-bottom: 5em;
+            }
+            article.activar_links ol{
+                background-color: white;
+                border-radius: 5px;
+                width: 90%;
+                height: 35.5em;
+                margin: 30px auto 10px auto;
+
+            }
+            article.activar_links li{
+                padding: 10px;
+                display: block;
+                transition: .6s;
+            }
+            article.activar_links li a{
+                color: blue;
+            }
+            article.activar_links span{
+                display: block;
+                float: right;
+                margin-top: 4em;
+                margin-right: 30px;
+                font-size: 1.6em;
+
+            }
+            .apagar{
+                display: none;
+                color: red;
+            }
+            article.activar_links li:hover{
+                border-bottom: 1px solid blue;
+            }
+            @media(max-width: 800px){
+            article.activar_links{
+                width: 100%;
+                background-color: RGBA(0, 0, 0, 0.5);
+                height: 700em;
+                position: fixed;
+                padding-top: 2em;
+                margin: -140px 0px 0px 0px;
+                left: -1px;
+            }
+            article.activar_links ol{
+                background-color: white;
+                border-radius: 5px;
+                width: 90%;
+                height: 35.5em;
+                margin: 50px auto 10px auto;
+            }
+            }
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+                       
+                       /*ZONA DE NAV SUPERIOR CONTACTOS E ENCOMENDE JA*/
+            .nav-top{
+                transition: 1s ease-in-out;
+                padding: 10px 10px 0px 10px;
+                background-color: #fff;
+                color: darkblue;
+            }
+            .nav-top_none{
+                transition: 1s ease-in-out;
+                display: none;
+            } 
+            .break_liner{
+                display: none;
+            }
+            .contacto_texto{
+                margin-left: 60px;
+                color: darkblue;
+            }
+            .enco{
+                width: 150px;
+                
+                padding: 10px 0px 12px 10px;
+                color: white;
+                margin-top: -11px;
+                margin-left: 48%;
+            }
+            .enco > a{
+                color: darkblue;
+            }
+             @media(max-width: 1100px){
+            .nav-top{
+                padding: 0px 5px 0px 5px;
+            }
+            .contacto_texto{
+                margin-left: 20px;
+                color: darkblue;
+            }
+            .contacts{
+                width: 480px;
+            }
+            .encomenda{
+                 width: 200px;
+            }
+            .enco{
+                margin-left: 18%;
+            }
+            }
+            @media(max-width: 750px){
+            .nav-top{
+                padding: 0px 5px 0px 5px;
+            }
+            .contacto_texto{
+                margin-left: 10px;
+            }
+            .contacts{
+               width: 400px;
+            }
+            .encomenda{
+                 width: 200px;
+            }
+            }
+             @media(max-width: 650px){
+            .nav-top{
+                padding: 10px 5px 0px 5px;
+            }
+            .contacto_texto{
+                margin-left: 10px;
+            }
+            .contacts{
+                width: 250px;
+            }
+            .break_liner{
+                display: block;
+            }
+            .eliminar-espaco{
+                padding: 0em;
+                background-color: #fff;
+            }
+            .encomenda{
+                 width: 120px;
+            }
+            .enco{
+                margin-left: 0%;
+            }
+            }           
+            /*CONFIGURACOES DA ZONA DE NAVAGACAO  E LINKS UTEIS*/
+            .nav-bottom{
+                padding: 25px 10px 10px 10px;
+                background-color: rgba(0,0,139, 0.4);
+                color: white;
+            }
+            .nav-bottom a{
+                color: white;
+            }
+            /*NOME DO SITE OU MARCA*/
+            .nome_marca{
+                padding-left: 80px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+             .nome_marca h1{
+                    padding: 0px;
+            }
+            @media(max-width: 700px){
+               .nome_marca{
+                padding: 0px;
+              }
+            }
+            @media(max-width: 1000px){
+               .nome_marca{
+                padding-left: 40px;
+              }
+            }
+            /*LINKS ZONA*/
+            .zone-nav{
+                padding-right: 80px;
+            }
+            @media(max-width: 1500px){.zone-nav{padding-right: 40px;}}
+            @media(max-width: 1000px){.zone-nav{padding-right: 20px;}}
+            .zone-nav li{
+                    display: inline;
+                    padding: 5px;
+            }
+            .zone-nav a:hover{
+                color: Cyan;
+            } 
+             ul.zone-nav{
+                display: none;
+                padding: 0px;
+                float: right;
+            }
+            @media(max-width: 800px){
+                .links_zone{
+                padding-right: 100px;
+                display: none;
+            }
+            
+            ul.zone-nav{
+                display: block;
+                padding: 0px;
+                float: right;
+                margin-top: -6px;
+                margin-right: 50px;
+            }
+        }
+            .mostrar{
+
+                width: 30px;
+                padding: 4px 2px 4px 2px;
+            }
+            .linhas{
+                display: block;
+                width: 20px;
+                margin: 2px auto;
+                background-color: black;
+                border-top: 4px solid #fff;
+            }
+            /*FORMATACAO MEDIA PARA MOBILE AND TABLET */
+            @media(max-width: 700px){
+                .welcome-zone{
+                    background-size: 100% 100%;
+                }
+            }

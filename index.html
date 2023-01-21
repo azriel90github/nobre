@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <title>Nobre Fashion</title>
+    <style>
+      .btn_scone > li.links_baixo{
+            background-color: white;
+           }
+              .top_bloco{
+        padding: 30px;
+        background-color: red;
+       }
+       .top2{
+            background-color: darkblue;
+
+       }
+       @media(max-width: 800px){
+            .top2{
+            background-color: darkblue;
+            margin-bottom: 6em;    
+       }
+       }
+        .top3{
+            background-color: yellow;
+       }
+        .top4{
+            background-color: green;
+       }
+       .enfase{
+        padding-top: 20px;
+       }     
+       .enfase p{
+        padding: 10px;
+       }
+       .scroll-off{
+        transform: translateY(200px);
+        transition: 1s;
+       }
+       .scroll-on{
+            transform: translateY(-140px);
+            transition: 1s;
+       }
+       .sobre-zone{
+        color: white;
+       }
+       @media(max-width: 800px){
+            .scroll-off{
+        transform: translateY(300px);
+        transition: 1s;
+       }
+       .scroll-on{
+            transform: translateY(-160px);
+            transition: 1s;
+       }
+       }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="main.css">
+    <link rel="stylesheet"  href="footer.css">
+    <link rel="stylesheet"  href="section.css">
+    <script src="main.js"></script>
+</head>
+<body onload="inicia()" onscroll="scroll_active()">
+        <main id="main">
+           <header>
+              <nav class="nav-zone zona">
+                <div class="nav-top" id="nav-top">
+                  <div class="linha th-40 contacts"> <p class="contacto_texto"> <span class="contactos bi-telephone"> 945-865-654 </span> &nbsp;
+                   <span class="bi-envelope"> nobrefashion2022@gmail.com </span></p> </div>
+                  <div class="linha th-40 direito encomenda"> <p class="enco"> <a href="encomenda.html"> Encomende Já <i class="bi-cart3"></i></a></p> </div>  
+                </div>
+                <div class="nav-bottom">
+                   <article class="centrar-zone">
+                    <article class="linha nome_marca">
+                        <h3 onclick="chamar()" class="logo_nobre">Nobre<span class="fashion">Fashion<span></h3>
+                    </article>
+                      <article class="linha direito links_zone" id="zone-nav">
+                        <span class="apagar bi-x-circle-fill" onclick="des_activar_links()"></span>
+                      <ol class="zone-nav" >
+                        <li> <a href="index.html">Menu </a></li>
+                        <li> <a href="produtos.html">Produtos </a></li>
+                        <li> <a href="contactos.html">Contactos </a></li>
+                        <li> <a href="sobre.html">Sobre </a></li>
+                        <li> <a href="ajuda.html">Ajuda</a></li>
+                      </ol>
+                      </article>
+                      <ul class="zone-nav" onclick="activar_links()">
+                        <div class="mostrar">
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                        </div>
+                      </ul>
+                   
+                </div>
+              </nav>
+           </header>
+            <!-----<main class="eliminar-espaco">
+            </main>-->
+            <section class="welcome-zone zona zona2 welcome-fundo1" id="welcome"> 
+                <div class="texto-zone">
+                    <article class=" textos" id="txt">
+                      <h1>A NOBRE FASHION</h1>
+                       <h3>A sua loja electrónica de Produtos Nobres</h3>
+                      <h5>Temos a sua disposição todos os produtos da Marca Nobre aqui </h5>
+                        <h1>Pense diferente, usando diferentes produtos.</h1>
+                        <ol class="btn_scone"><li class="btn_scone_active" id="n1"></li><li id="n2"></li><li id="n3"></li><li id="n4"></li></ol> 
+                      <article>     
+               </div>
+            </section>
+            <section class="bloco zona2 scroll-off" id="blocos">  
+                  <section class=" centralizar">
+                    <div class=" blocos bloco1 enfase">
+                            <div class="top_bloco top1">
+                            <span class="bi-flower1 simbolo"></span>
+                            </div>    
+                        <h4>O quê esperar da Nobre</h4>
+                            <p>Os nossos clientes podem esperar da Nobre Fashion um serviço de alta qualidade, segurança e resposabilidade, traremos-lhe um produto  com todos os padrões exigidos. Desenvolver um serviço que seja uma motivação para os jovens angolanos, mostrando que com pequenas ideias podem surgir grandes projectos.</p>  
+                            <p class="seeing"><a   href="sobre.html#blocos">Ver mais <span class="bi-arrow-right"></span></a></p>   
+                    </div>
+                    <div class=" blocos enfase">
+                        <div class="top_bloco top2">
+                            <span class="bi-hand-index-thumb simbolo"></span>
+                         </div>
+                     <h4>O Nosso Objectivo</h4>
+                        <p>Nosso maior objectivo e fazer com que a população angolana valorize mais os produtos nacionais,
+                         mostrando que os nossos produtos e ideias se forem bem plenajados e construidos alcansem grandes patamares </p>
+                             <p class="seeing"  ><a href="sobre.html#blocos">Ver mais <span class="bi-arrow-right"></span></a></p>
+                    </div>
+                    <div class=" blocos enfase ">
+                        <div class="top_bloco top3">
+                            <span class="bi-building simbolo"></span>
+                         </div>
+                        <h4>A Nossa Missão</h4>
+                            <p>Nossa missão é trazer um produto de qualidade aos nossos clientes, melhorando o nosso atendimento, satisfazer os nossos clientes, inovar o atendimento com ideias maravilhosas e inovadoras.</p> 
+                            <p class="seeing"><a href="sobre.html#blocos">Ver mais <span class="bi-arrow-right"></span></a></p> 
+                    </div>
+                    <div class=" blocos enfase " >
+                        <div class="top_bloco top4">
+                            <span class="bi-map simbolo"></span>
+                         </div>
+                        <h4> Nossa Meta</h4>
+                        <p>Torna a marca Nobre popular em Angola fazendo e desenvolvendo um serviço de alta qualidade, que engradecem o esforço de todos  
+                         os nossos clientes e parceiros. Inovar o atendimento, melhor a qualidade dos nossos produtos, desenvolver produtos diferentes, expandir a marca, torna-la mais popular.</p>
+                        <p class="seeing"><a href="sobre.html#blocos">Ver mais <span class="bi-arrow-right"></span></a></p>                     
+                    </div>
+                  </section>
+               </section>
+               <section class="sobre-zone zona2 espacamento" style="background-image:url(fundo4.jpg); background-size:cover; padding-top:4em; padding-bottom:8em; margin-top:0px;" >   
+                 <div class="texto-sobre linha th-50 margin_left "> 
+                        <h1>O quê é a Nobre Fashion</h1>
+
+                        <p>A Nobre Fashion é uma loja electrónica de venda e publicidade da marca Nobre. 
+                            Esta marca Nobre foi criada pelo jovem angolano Miguel Nobre, foi criada em um momento de grande inspiração. Este webite foi desenvolvido pela Cria Aqui Desenvolvimentos. 
+                    </p>
+                    <p class="seeing" ><a  href="sobre.html#ceo">Ver mais <span class="bi-arrow-right"></span></a></p>
+               </div>
+                 <div class=" linha th-30 imagem_sobre "style="background-image:url();">
+                        
+               </div>
+           </section>
+           <section class="produtos-zone zona2 espacamento">   
+                 <div class="texto-produtos linha th-40 margin_left">
+                     <h1>Todos os nossos produtos </h1>
+                     <p>.</p>
+                     <ol class="linha_produtos">
+                        <li><a href="produtos.html#camisa">Camisa</a></li>
+                        <li><a href="produtos.html#casacos"> Casacos</a></li>
+                        <li><a href="produtos.html#calsas"> Calsas </a></li>
+                        <li><a href="produtos.html#calsoes"> Calsões </a></li>
+                        <li><a href="produtos.html#turques"> Turques</a></li>
+                      </ol>
+                    <p><a href="produtos.html"> Clique aqui para ver todos os produtos </a></p>
+
+                </div>
+                 <div class="linha produto-imagem direito th-40 ">
+                     <img src="fundo3.jpg" alt="Imagem sobre a marca nobre bem elustrada">   
+               </div>
+           </section>
+   <section style="background-image:url(sobre.jpg); background-size:cover; background-attachment: fixed;">
+         <section class="testemunho" style=" background-color:rgba(0, 0, 0, 0.9)" >
+              <article class="testemunho_zone zona_float " id="testemunho1">
+                        <img src="job-teste.jpg" alt="Imagem sobre as opinioes ou testemunhos sobre a marca ou site">
+                        <h3 class="funcao" id="funcao">Agente da Nobre</h3>
+                        <h2 class="estemunha" id="estemunha" > Job Cabo Miguel </h2>
+                        <p>Fui uma das primeiras pessoas a saber, fique muito impressionado com esta grande ideia e hoje temos um grande Projecto</p>
+              </article>
+              <article class="testemunho_zone  float_r n1" id="testemunho2">
+                        <img src="PIKI.jpg" alt="Imagem sobre as opinioes ou testemunhos sobre a marca ou site">
+                        <h3 class="funcao" id="funcao"> English Teacher</h3>
+                        <h2 class="estemunha" id="estemunha" > William </h2>
+                        <p>Fui uma das primeiras pessoas a saber, fique muito impressionado com esta grande ideia e hoje temos um grande Projecto</p>
+                                      </article>
+              <article class="testemunho_zone float_r creusa" id="testemunho3">
+                        <img src="" alt="Imagem sobre as opinioes ou testemunhos sobre a marca ou site">
+                        <h3 class="funcao" id="funcao">Enfluenciadora Digital</h3>
+                        <h2 class="estemunha" id="estemunha" > Creusa Baía </h2>
+                        <p>Fui uma das primeiras pessoas a saber, fique muito impressionado com esta grande ideia e hoje temos um grande Projecto</p>
+              </article>
+              <article class="testemunho_zone float_r float_left nobre" id="testemunho4">
+                        <img src="nobre-teste.jpg" alt="Imagem sobre as opinioes ou testemunhos sobre a marca  de C.E.O">
+                        <h3 class="funcao" id="funcao">C.E.O</h3>
+                        <h2 class="estemunha" id="estemunha" >  Miguel Nobre</h2>
+                        <p>Fico feliz em realizar um sonho de transformar o meu em um negócio.  </p>
+              </article>
+                    <ol class="btn_scone"><li class="btn_scone_active" id="num1"></li><li id="num2"></li><li id="num3"></li><li id="num4"></li></ol>
+            </div>
+         </section>
+        <section>
+        </main>
+    <footer class="rodape zona2 rodape-zone">
+        <main class="rodape footer-top">
+           <section class="linha th_30 footer_interno marca_img">
+               <img src="logo.png" alt="Imagem da Marca Nobre">
+               <p class="bi-geo-alt-fill cria-cor"> Local: Cacuaco/Mulenvos de Baixo</p>
+               <p class="bi-envelope-fill cria-cor"> Email: nobrefashion2022@gmail.com</p>
+               <p class="bi-telephone-fill cria-cor"> Contacto: 964-561-456</p> 
+           </section>
+           <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(1)" 
+                ondblclick="des_focus_links(1)">Links uteís <span class="seta bi-arrow-down"  id="seta"></span></h5>
+                <ol class="nav_footer" id="links_footer1">
+                   <li> <a href="index.html#txt">Menu </a></li>
+                   <li> <a href="ajuda.html#ajuda-txt">Ajuda</a></li>
+                   <li> <a href="sobre.html#ceo">Sobre </a></li>
+                   <li> <a href="produtos.html#produtos-zone">Produtos </a></li>
+                   <li> <a href="contactos.html#contacts">Contactos </a></li>
+              </ol>
+            </section>   
+           <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(2)" ondblclick="des_focus_links(2)">Parceiros <span class="seta bi-arrow-down " id="seta"></span></h5>
+                <ol class="zone-nav2 nav_footer"  id="links_footer2">
+                   <li> <a href="#" target="_blank">LBA </a></li>
+                   <li> <a href="#" target="_blank">Cria Aqui </a></li>
+                   <li> <a href="#" target="_blank">Educando Service </a></li>
+                   <li> <a href="#" target="_blank">Creusa Baía</a></li>
+              </ol>
+           </section>
+           <section class="linha th_15 footer_interno footer-redes">
+                <h5 onclick="focus_links(3)" ondblclick="des_focus_links(3)">Redes Sociais<span class="seta bi-arrow-down" id="seta"></span></h5>
+                <ol class="zone-nav3 nav_footer" id="links_footer3">
+                   <li> <a href="https://www.telegram.com" target="_blank">Telegram  </a> <span class="bi-telegram cria-cor"></span></li>
+                   <li> <a href="https://www.whatsapp.com/" target="_blank">WhatsApp </a> <span class="bi-whatsapp cria-cor"></span></li>
+                   <li> <a href="https://www.facebook.com/nobre%20fashion/nobre fashion" target="_blank" >Facebook</a> <span class="bi-facebook cria-cor"></span></li>
+              </ol>
+           </section>
+        </main>
+        <section class="footer-bottom">
+            <p> &copy Copyright NobreFashion. Todos os direitos reservados </p>
+            <p> Designed by <span class="cria-aqui">Cria Aqui </span></p>
+        </section>    
+    </footer>
+</body>
+<script> 
+</script>
+<script src="zona.js"></script>  
+</html>

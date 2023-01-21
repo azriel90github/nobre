@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Favicons -->
+  <link href="favicon.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="produtos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <title>Produtos</title>
+    <style>
+        .zone-galaria{
+            padding:6em 0px;
+            border-bottom: 1px solid black;
+        }
+        .zone-galaria .fazer_encomenda {
+            background-color: rgba(0, 0, 135, 0.4);
+            color: white;
+            padding: 10px;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="main.css">
+    <link rel="stylesheet"  href="footer.css">
+    <link rel="stylesheet"  href="section.css">
+    <script src="main.js"></script>
+</head>
+<body onload="inicia()" onscroll="scroll_active()">
+        <main id="main">
+           <header>
+              <nav class="nav-zone zona">
+                <div class="nav-top" id="nav-top">
+                  <div class="linha th-40 contacts"> <p class="contacto_texto"> <span class="contactos bi-telephone"> 945-865-654 </span>&nbsp;                     
+                   <span class="contactos bi-envelope "><i class="  "></i> nobrefashion2022@gmail.com </span></p> </div>
+                  <div class="linha th-40 direito encomenda"> <p class="enco"> <a href="encomenda.html"> Encomende Já <i class="bi-cart3"></i></a></p> </div>  
+                </div>
+                <div class="nav-bottom">
+                   <article class="centrar-zone">
+                    <article class="linha nome_marca">
+                        <h3 onclick="chamar()" class="logo_nobre">Nobre<span class="fashion">Fashion<span></h3>
+                    </article>
+                      <article class="linha direito links_zone" id="zone-nav">
+                        <span class="apagar bi-x-circle-fill" onclick="des_activar_links()"></span>
+                      <ol class="zone-nav" >
+                        <li> <a href="index.html">Menu </a></li>
+                        <li> <a href="produtos.html">Produtos </a></li>
+                        <li> <a href="contactos.html">Contactos </a></li>
+                        <li> <a href="sobre.html">Sobre </a></li>
+                        <li> <a href="ajuda.html">Ajuda</a></li>
+                      </ol>
+                      </article>
+                      <ul class="zone-nav" onclick="activar_links()">
+                        <div class="mostrar">
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                        </div>
+                      </ul>
+                   
+                </div>
+              </nav>
+           </header>
+            <section class="produtos-zone zona2 espacamento" id="produtos-zone"style="background-image:url(agente-500.jpg); background-size:cover; background-attachment:fixed">   
+                 <div class="texto-produtos linha  margin_left" style="padding-top:4em;">
+                     <h1>Todos os nossos produtos </h1>
+                     <ol class="linha_produtos">
+                        <li><a href="produtos.html#camisa">Camisa</a></li>
+                        <li><a href="produtos.html#casacos"> Casacos</a></li>
+                        <li><a href="produtos.html#calcas"> Calças </a></li>
+                        <li><a href="produtos.html#calcoes"> Calções </a></li>
+                        <li><a href="produtos.html#turques"> Turques</a></li>
+                      </ol>
+                    <p><a href="produtos.html"> Clique aqui para ver todos os produtos </a></p>
+
+                </div>
+           </section>
+        <section id="camisa" class="zone-galaria">
+        <div id="cenario" >
+            <button class="btnslider" onclick="trocarCamisa(-1)">  &lt; </button>
+            <div class="">
+                <h3>Zona de camisas</h3>
+                <div class="galeria_div">
+                    <img src="agente-500.jpg" class="galeria " id="camisa-1" alt="Imagem de modelos de camisolas 1">
+                    <p>Por apenas 2700 KZ</p>
+                </div>
+                <div class="galeria_div">
+                    <img src="agente-500.jpg" class="galeria " id="camisa-2" alt="Imagem de modelos de camisolas 2">
+                        <p>Por apenas 2700 KZ</p>
+                </div>
+                <div class="galeria_div">
+                    <img src="agente-500.jpg" class="galeria galeria3" id="camisa-3" alt="Imagem de modelos de camisolas 3">
+                <p>Por apenas 2700 KZ</p>
+                </div>
+                <p class="fazer_encomenda"><a href="encomeda.html">Faça a sua Encomenda </a></p>
+                                    
+            </div>
+            <button class="btnslider" onclick="trocarCamisa(1)"> > </button>
+        </div>
+    </section>
+    <section id="casacos" class="zone-galaria">
+        <div id="cenario">
+            <button class="btnslider" onclick="trocarCasa(-1)">  &lt; </button>
+            <div class="">
+                <h3>Zona de Casacos</h3>
+                <div class="galeria_div">
+                    <img src="casa.jpg" class="galeria " id="casa-1" alt="Imagem de modelos de camisolas 1">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                 <div class="galeria_div">
+                <img src="casa.jpg" class="galeria " id="casa-2" alt="Imagem de modelos de camisolas 2">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+            <div class="galeria_div">
+                    <img src="casa.jpg" class="galeria " id="casa-3" alt="Imagem de modelos de camisolas 3">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                
+                <p class="fazer_encomenda"><a href="encomeda.html">Faça a sua Encomenda </a></p>
+            </div>
+            <button class="btnslider" onclick="trocarCasa(1)"> > </button>
+        </div>
+    </section>
+    <section id="calcas" class="zone-galaria">
+        <div id="cenario">
+            <button class="btnslider" onclick="trocarChapeu(-1)">  &lt; </button>
+            <div class="">
+                <h3>Chapeus</h3>
+                <div class="galeria_div">
+                <img src="Ca.jpg" class="galeria " id="chapeu-1" alt="Imagem de modelos de camisolas 1">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                <div class="galeria_div">
+                    <img src="Ca.jpg" class="galeria " id="chapeu-2" alt="Imagem de modelos de camisolas 2">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                <div class="galeria_div">
+                    <img src="Ca.jpg" class="galeria " id="chapeu-3" alt="Imagem de modelos de camisolas 3">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                
+                <p class="fazer_encomenda"><a href="encomeda.html">Faça a sua Encomenda </a></p>
+                                    
+            </div>
+            <button class="btnslider" onclick="trocarChapeu(1)"> > </button>
+        </div>
+    </section>
+    <section id="calcoes" class="zone-galaria">
+        <div id="cenario">
+            <button class="btnslider" onclick="trocarCalcoes(-1)">  &lt; </button>
+            <div class="">
+                <h3>Zona de Calções</h3>
+                <div class="galeria_div">
+                    <img src="cal-s.jpg" class="galeria " id="calcao-1" alt="Imagem de modelos de camisolas 1">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+               <div class="galeria_div">
+                    <img src="cal-s.jpg" class="galeria " id="calcao-2" alt="Imagem de modelos de camisolas 2">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+               <div class="galeria_div">
+                     <img src="cal-s.jpg" class="galeria " id="calcao-3" alt="Imagem de modelos de camisolas 3">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                    <p class="fazer_encomenda"><a href="encomeda.html">Faça a sua Encomenda </a></p>                                    
+            </div>
+            <button class="btnslider" onclick="trocarCalcoes(1)"> > </button>
+        </div>
+    </section>
+    <section id="turques" class="zone-galaria">
+        <div id="cenario">
+            <button class="btnslider" onclick="trocarTurque(-1)">  &lt; </button>
+            <div class="">
+                <h3>Zona de Turques</h3>
+                <div class="galeria_div">
+                     <img src="red.jpg" class="galeria " id="turque-1" alt="Imagem de modelos de camisolas 1">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                 <div class="galeria_div">
+                     <img src="cal-s.jpg" class="galeria " id="turque-2" alt="Imagem de modelos de camisolas 2">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                <div class="galeria_div">
+                     <img src="agente-500.jpg" class="galeria " id="turque-3" alt="Imagem de modelos de camisolas 3">
+                    <p>Por apenas 5000 KZ</p>
+                </div>
+                   <p class="fazer_encomenda"><a href="encomeda.html">Faça a sua Encomenda </a></p>
+            </div>
+            <button class="btnslider" onclick="trocarTurque(1)"> > </button>
+        </div>
+    </section>
+     <footer class="rodape zona2 rodape-zone">
+        <main class="rodape footer-top">
+           <section class="linha th_30 footer_interno marca_img">
+               <img src="logo.png" alt="Imagem da Marca Nobre">
+               <p class="bi-geo-alt-fill cria-cor"> Local: Cacuaco/Mulenvos de Baixo</p>
+               <p class="bi-envelope-fill cria-cor"> Email:nobrefashion2022@gmail.com</p>
+               <p class="bi-telephone-fill cria-cor"> Contacto: 964-561-456</p> 
+           </section>
+           <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(1)" 
+                ondblclick="des_focus_links(1)">Links uteís <span class="seta bi-arrow-down"  id="seta"></span></h5>
+                <ol class="nav_footer" id="links_footer1">
+                   <li> <a href="index.html#txt">Menu </a></li>
+                   <li> <a href="ajuda.html#ajuda-txt">Ajuda</a></li>
+                    <li> <a href="sobre.html#ceo">Sobre </a></li>
+                   <li> <a href="produtos.html#produtos-zone">Produtos </a></li>
+                   <li> <a href="contactos.html#contacts">Contactos </a></li>
+
+              </ol>
+            </section>   
+            <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(2)" ondblclick="des_focus_links(2)">Parceiros <span class="seta bi-arrow-down " id="seta"></span></h5>
+                <ol class="zone-nav2 nav_footer"  id="links_footer2">
+                   <li> <a href="#" target="_blank">LBA </a></li>
+                   <li> <a href="#" target="_blank">Cria Aqui </a></li>
+                   <li> <a href="#" target="_blank">Educando Service </a></li>
+                   <li> <a href="#" target="_blank">Creusa Baía</a></li>
+              </ol>
+           </section>
+           <section class="linha th_15 footer_interno footer-redes">
+                <h5 onclick="focus_links(3)" ondblclick="des_focus_links(3)">Redes Sociais<span class="seta bi-arrow-down" id="seta"></span></h5>
+                <ol class="zone-nav3 nav_footer" id="links_footer3">
+                   <li> <a href="https://www.telegram.com" target="_blank">Telegram  </a> <span class="bi-telegram cria-cor"></span></li>
+                   <li> <a href="https://www.whatsapp.com/" target="_blank">WhatsApp </a> <span class="bi-whatsapp cria-cor"></span></li>
+                   <li> <a href="https://www.facebook.com/nobre%20fashion/nobre fashion" target="_blank" >Facebook</a> <span class="bi-facebook cria-cor"></span></li>
+              </ol>
+           </section>   
+        </main>
+        <section class="footer-bottom">
+            <p> &copy Copyright Nobre Fashion. Todos os direitos reservados </p>
+            <p> Designed by <span class="cria-aqui">Cria Aqui </span></p>
+        </section>    
+    </footer>
+</body>
+<script> 
+    contador = 0;
+    //Coleita de dados os zone de configurações 
+    camisa_1 = window.document.getElementById('camisa-1');
+    camisa_2 = window.document.getElementById('camisa-2');
+    camisa_3 = window.document.getElementById('camisa-3');
+        //Confiurações sobre a funcao de mudanca de camisas 
+        function trocarCamisa(mens){
+            contador = contador + (mens);
+
+            if(contador < 1){
+                contador = 4;
+                }else if(contador > 4){
+                contador = 1
+            }
+            if (contador == 1) {
+                 amarelo_camisa()
+            } else if (contador == 2) {
+                branca_camisa()
+            } else if (contador == 3) {
+                vermelhas()  
+            }else if(contador == 4){
+                preta_camisa()
+            }
+            console.log(contador)
+        }
+     // Mudando as camisas por camisas amarelas   
+    function amarelo_camisa(){
+        camisa_1.src = "23.jpg";
+        camisa_1.alt = "camisa seccao 1"
+        camisa_2.src = "oran.jpg";
+        camisa_3.src = "laranja.jpg";
+    }
+    // Mudando as camisas por camisas Branca #fff
+    function branca_camisa(){
+        camisa_1.src = "cd-13.jpg";
+        camisa_1.alt = "camisa seccao 2"
+        camisa_2.src = "black-1.jpg";
+        camisa_3.src = "cd-1.jpg";
+    }
+    // Mudando as camisas por camisas Red 
+    function vermelhas_camisa(){
+        camisa_1.src = "blac.jpg";
+        camisa_1.alt = "camisa seccao 3"
+        camisa_2.src = "red.jpg";
+        camisa_3.src = "45.jpg";
+    }
+    // Mudando as camisas por camisas Black #000
+    function preta_camisa(){
+        camisa_1.src = "blac.jpg";
+        camisa_1.alt = "camisa seccao 4"
+        camisa_2.src = "laranja.jpg";
+        camisa_3.src = "black-1.jpg";
+    }
+    /*FIM CONFIGURACAO CAMISAS E SEU FILHOS*/
+
+    
+    /*ZONA DE CONFIGURACAO DE CALCOES MUDANCA DE IMAGENS COM OS BOTONS*/
+        contador = 0;
+    //Coleita de dados os zone de configurações 
+    calcoes_1 = window.document.getElementById('calcao-1');
+    calcoes_2 = window.document.getElementById('calcao-2');
+    calcoes_3 = window.document.getElementById('calcao-3');
+        //Confiurações sobre a funcao de mudanca de calcoes 
+        function trocarCalcoes(mens){
+            contador = contador + (mens);
+
+            if(contador < 1){
+                contador = 3;
+                }else if(contador > 3){
+                contador = 1
+            }
+            if (contador == 1) {
+                 cal_amarelo()
+            } else if (contador == 2) {
+                cal_branca()
+            } else if (contador == 3) {
+                cal_vermelhas()  
+            }
+            console.log(contador)
+        }
+     // Mudando as camisas por camisas amarelas   
+    function cal_amarelo(){
+        calcoes_1.src = "amarelo1.jpg";
+        calcoes_1.alt = "camisa seccao 1"
+        calcoes_2.src = "amarelo2.jpg";
+        calcoes_3.src = "amarelo3.jpg";
+    }
+    // Mudando as camisas por camisas Branca #fff
+    function cal_branca(){
+        calcoes_1.src = "branca1.jpg";
+        calcoes_1.alt = "camisa seccao 2"
+        calcoes_2.src = "branca2.jpg";
+        calcoes_3.src = "branca3.jpg";
+    }
+    // Mudando as camisas por camisas Red 
+    function cal_vermelhas(){
+        calcoes_1.src = "vermelhas.jpg";
+        calcoes_1.alt = "camisa seccao 3"
+        calcoes_2.src = "vermelhas2.jpg";
+        calcoes_3.src = "vermelhas3.jpg";
+    }
+    /*FIM CONFIGURACAO CALCAS E SEU FILHOS*/
+
+
+    /*ZONA DE CONFIGURACAO DE casacos MUDANCA DE IMAGENS COM OS BOTONS*/
+        contador = 0;
+    //Coleita de dados os zone de configurações 
+    casa_1 = window.document.getElementById('casa-1');
+    casa_2 = window.document.getElementById('casa-2');
+    casa_3 = window.document.getElementById('casa-3');
+        //Confiurações sobre a funcao de mudanca de calcoes 
+        function trocarCasa(mens){
+            contador = contador + (mens);
+
+            if(contador < 1){
+                contador = 4;
+                }else if(contador > 4){
+                contador = 1
+            }
+            if (contador == 1) {
+                 casa_amarelo()
+            } else if (contador == 2) {
+                casa_branca()
+            } else if (contador == 3) {
+                casa_vermelhas()  
+            }else if(contador == 4){
+                casa_preta()
+            }
+            alert(contador)
+        }
+     // Mudando as camisas por camisas amarelas   
+    function casa_amarelo(){
+        casa_1.src = "amarelo1.jpg";
+        casa_1.alt = "camisa seccao 1"
+        casa_2.src = "amarelo2.jpg";
+        casa_3.src = "amarelo3.jpg";
+    }
+    // Mudando as camisas por camisas Branca #fff
+    function casa_branca(){
+        casa_1.src = "branca1.jpg";
+        casa_1.alt = "camisa seccao 2"
+        casa_2.src = "branca2.jpg";
+        casa_3.src = "branca3.jpg";
+    }
+    // Mudando as camisas por camisas Red 
+    function casa_vermelhas(){
+        casa_1.src = "vermelhas.jpg";
+        casa_1.alt = "camisa seccao 3"
+        casa_2.src = "vermelhas2.jpg";
+        casa_3.src = "vermelhas3.jpg";
+    }
+    // Mudando as camisas por camisas Black #000
+    function casa_preta(){
+        casa_1.src = "preta.jpg";
+        casa_1.alt = "camisa seccao 4"
+        casa_2.src = "preta2.jpg";
+        casa_3.src = "preta3.jpg";
+    }
+    /*FIM CONFIGURACAO CASACOS E SEU FILHOS*/
+
+    /*ZONA DE CONFIGURACAO DE TURQUES MUDANCA DE IMAGENS COM OS BOTONS*/
+        contador = 0;
+    //Coleita de dados os zone de configurações 
+    turque_1 = window.document.getElementById('turque-1');
+    turque_2 = window.document.getElementById('turque-2');
+    turque_3 = window.document.getElementById('turque-3');
+        //Confiurações sobre a funcao de mudanca de calcoes 
+        function trocarTurque(mens){
+            contador = contador + (mens);
+
+            if(contador < 1){
+                contador = 2;
+                }else if(contador > 2){
+                contador = 1
+            }
+            if (contador == 1) {
+                 tu_amarelo()
+            } else if (contador == 2) {
+                tu_branca()
+            }
+            console.log(contador)
+        }
+     // Mudando as camisas por camisas amarelas   
+    function tu_amarelo(){
+        turque_1.src = "amarelo1.jpg";
+        turque_1.alt = "camisa seccao 1"
+        turque_2.src = "amarelo2.jpg";
+        turque_3.src = "amarelo3.jpg";
+    }
+    // Mudando as camisas por camisas Branca #fff
+    function tu_branca(){
+        turque_1.src = "branca1.jpg";
+        turque_1.alt = "camisa seccao 2"
+        turque_2.src = "branca2.jpg";
+        turque_3.src = "branca3.jpg";
+    }
+    /*FIM CONFIGURACAO TURQUES E SEU FILHOS*/
+
+    /*ZONA DE CONFIGURACAO DE CALCOES MUDANCA DE IMAGENS COM OS BOTONS*/
+        contador = 0;
+    //Coleita de dados os zone de configurações 
+    chapeu_1 = window.document.getElementById('chapeu-1');
+    chapeu_2 = window.document.getElementById('chapeu-2');
+    chapeu_3 = window.document.getElementById('chapeu-3');
+        //Confiurações sobre a funcao de mudanca de calcoes 
+        function trocarChapeu(mens){
+            contador = contador + (mens);
+
+            if(contador < 1){
+                contador = 2;
+                }else if(contador > 2){
+                contador = 1
+            }
+            if (contador == 1) {
+                 ch_amarelo()
+            } else if (contador == 2) {
+                ch_branca()
+            }
+            console.log(contador)
+        }
+     // Mudando as camisas por camisas amarelas   
+    function ch_amarelo(){
+        chapeu_1.src = "amarelo1.jpg";
+        chapeu_1.alt = "camisa seccao 1"
+        chapeu_2.src = "amarelo2.jpg";
+        chapeu_3.src = "amarelo3.jpg";
+    }
+    // Mudando as camisas por camisas Branca #fff
+    function ch_branca(){
+        chapeu_1.src = "branca1.jpg";
+        chapeu_1.alt = "camisa seccao 2"
+        chapeu_2.src = "branca2.jpg";
+        chapeu_3.src = "branca3.jpg";
+    }
+ </script>
+<script src="zona.js"></script>  
+</html>

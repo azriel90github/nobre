@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <title>Ajuda!</title>
+    <style>
+            .ajuda{
+                wid
+            }
+            .ajuda-txt{
+                width: 90%;
+                margin: 1em auto;
+            }
+            .ajuda h3{
+                display: block;
+                color: #666;
+                padding-bottom: 20px;
+                border-bottom:  solid darkblue;
+                border-width: 2px;
+                width: 250px;
+                margin:20px 0px 20px 0px;
+
+            }
+            @media(max-width: 700px){
+            .ajuda h3{
+                width: 200px;
+                padding-bottom: 20px;
+                margin:40px 0px 20px 0px;
+            }   
+            }
+            p{
+               
+            }
+            iframe{
+                border:0; 
+                width: 100%;
+                height: 350px;
+                margin-bottom:2em;
+                background-color: darkblue;
+            }
+            video{
+
+            }
+
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="main.css">
+    <link rel="stylesheet"  href="footer.css">
+    <link rel="stylesheet"  href="section.css">
+    <script src="main.js"></script>
+</head>
+<body onload="inicia()" onscroll="scroll_active()">
+        <main id="main">
+           <header>
+              <nav class="nav-zone zona">
+                <div class="nav-top" id="nav-top">
+                  <div class="linha th-40 contacts"> <p class="contacto_texto"> <span class="contactos bi-telephone"> 945-865-654 </span>&nbsp
+                   <span class="contactos bi-envelope "><i class="  "></i> nobrefashion2022@gmail.com </span></p> </div>
+                  <div class="linha th-40 direito encomenda"> <p class="enco"> <a href="encomenda.html"> Encomende Já <i class="bi-cart3"></i></a></p> </div>  
+                </div>
+                <div class="nav-bottom">
+                   <article class="centrar-zone">
+                    <article class="linha nome_marca">
+                        <h3 onclick="chamar()" class="logo_nobre">Nobre<span class="fashion">Fashion<span></h3>
+                    </article>
+                      <article class="linha direito links_zone" id="zone-nav">
+                        <span class="apagar bi-x-circle-fill" onclick="des_activar_links()"></span>
+                      <ol class="zone-nav" >
+                        <li> <a href="index.html">Menu </a></li>
+                        <li> <a href="produtos.html">Produtos </a></li>
+                        <li> <a href="contactos.html">Contactos </a></li>
+                        <li> <a href="sobre.html">Sobre </a></li>
+                        <li> <a href="ajuda.html">Ajuda</a></li>
+                      </ol>
+                      </article>
+                      <ul class="zone-nav" onclick="activar_links()">
+                        <div class="mostrar">
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                          <span class="linhas"></span>
+                        </div>
+                      </ul>
+                   
+                </div>
+              </nav>
+           </header>
+            <main class="eliminar-espaco" style="padding-top:9em; background-color:#fff;">
+            </main>
+            <main  class="ajuda">
+                    <section class="ajuda-txt" id="ajuda-txt">
+                            <h3>Zona de ajuda</h3>
+                            <p> Esta zona é reservada para a resolusão de eventuais dúvidas ou problema, temos uma equipa especializada e com os meios necessários para dar suporte e ajuda aos nossos clientes mas isso só é possível se os clientes usarem os nossos serviços de ajuda, para evitar alguns problemas e dúvidas assista este video que tem o conteúdo de como usar o site e como fazer as encomendas.</p>
+                    </section>
+                    <section class="ajuda-txt">
+                            <h3>Assista este vídeo</h3>
+                                      
+                                <p>Para ser solucionado qualquer dos seus problemas, nós temos a linha de atendimento diário 24 
+                                    horas ao dia 945-962-145 para receber suporte e ajuda.
+                                    Você também pode resolver todos os seus prolemas enviando mensagens de ajuda para o 
+                                    nosso correio electrônico nobre_ajuda@gmail.com. Assista este vídeos e elimine dúvidas sobre a Nobre Fashion.</p>
+
+                    </section>
+
+
+        <iframe src="Michael_Jackson_-_Smooth_Criminal_(Single_Version)_HD(720p).mp4" frameborder="0" allowfullscreen></iframe>
+            </main>
+    <footer class="rodape zona2 rodape-zone">
+        <main class="rodape footer-top">
+           <section class="linha th_30 footer_interno marca_img">
+               <img src="logo.png" alt="Imagem da Marca Nobre">
+               <p class="bi-geo-alt-fill cria-cor"> Local: Cacuaco/Mulenvos de Baixo</p>
+               <p class="bi-envelope-fill cria-cor"> Email: nobrefashion2022@gmail.com</p>
+               <p class="bi-telephone-fill cria-cor"> Contacto: 964-561-456</p> 
+           </section>
+           <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(1)" 
+                ondblclick="des_focus_links(1)">Links uteís <span class="seta bi-arrow-down"  id="seta"></span></h5>
+                <ol class="nav_footer" id="links_footer1">
+                   <li> <a href="index.html#txt">Menu </a></li>
+                   <li> <a href="ajuda.html#ajuda-txt">Ajuda</a></li>
+                    <li> <a href="sobre.html#ceo">Sobre </a></li>
+                   <li> <a href="produtos.html#produtos-zone">Produtos </a></li>
+                   <li> <a href="contactos.html#contacts">Contactos </a></li>
+              </ol>
+            </section>   
+            <section class="linha th_15 footer_interno">
+                <h5 onclick="focus_links(2)" ondblclick="des_focus_links(2)">Parceiros <span class="seta bi-arrow-down " id="seta"></span></h5>
+                <ol class="zone-nav2 nav_footer"  id="links_footer2">
+                   <li> <a href="#" target="_blank">LBA </a></li>
+                   <li> <a href="#" target="_blank">Cria Aqui </a></li>
+                   <li> <a href="#" target="_blank">Educando Service </a></li>
+                   <li> <a href="#" target="_blank">Creusa Baía</a></li>
+              </ol>
+           </section>
+           <section class="linha th_15 footer_interno footer-redes">
+                <h5 onclick="focus_links(3)" ondblclick="des_focus_links(3)">Redes Sociais<span class="seta bi-arrow-down" id="seta"></span></h5>
+                <ol class="zone-nav3 nav_footer" id="links_footer3">
+                   <li> <a href="https://www.telegram.com" target="_blank">Telegram  </a> <span class="bi-telegram cria-cor"></span></li>
+                   <li> <a href="https://www.whatsapp.com/" target="_blank">WhatsApp </a> <span class="bi-whatsapp cria-cor"></span></li>
+                   <li> <a href="https://www.facebook.com/nobre%20fashion/nobre fashion" target="_blank" >Facebook</a> <span class="bi-facebook cria-cor"></span></li>
+              </ol>
+           </section>
+        </main>
+        <section class="footer-bottom">
+            <p> &copy Copyright NobreFashion. Todos os direitos reservados </p>
+            <p> Designed by <span class="cria-aqui">Cria Aqui </span></p>
+        </section>    
+    </footer>
+</body>
+<script> 
+</script>
+<script src="zona.js"></script>  
+</html>
